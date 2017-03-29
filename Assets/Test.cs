@@ -12,8 +12,11 @@ public class Test : MonoBehaviour {
         array[2] = 50;
         array[3] = 10;
         array[4] = 80;
-
-        for (int i = array.Length - 1; 0 <= i; i--)
+        for (int a = 0; a <= 4; a++)
+        {
+            Debug.Log(array[a]);
+                }
+            for (int i = array.Length - 1; 0 <= i; i--)
         {
             Debug.Log(array[i]);
         } 
